@@ -1,5 +1,6 @@
 import './Layout.css'
 import Header from "../../components/Header/Header"
+import Auth from '../../components/Auth/Auth'
 
 const Layout = props => {
     return (
@@ -7,9 +8,12 @@ const Layout = props => {
             <header>
                 <Header />
             </header>
-            <main>
-                { props.children }
-            </main>
+            <div className="content">
+                <main className='posts'>
+                    { props.children }
+                </main>
+                <Auth />
+            </div>
         </div>
     )
 }

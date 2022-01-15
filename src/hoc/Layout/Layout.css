@@ -1,0 +1,15 @@
+.content {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.posts {
+    /* display: none; */
+    width: 67%;
+}
+.posts.visible {
+    display: block;
+}
