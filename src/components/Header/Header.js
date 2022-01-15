@@ -7,7 +7,7 @@ function Header() {
             <div className="header-wrapper">
                 <nav className="header-nav">
                     <ul className="header-menu">
-                        <li className="header-menu-item"><NavLink to="/" className="header-menu-link">Общение</NavLink></li>
+                        <li className="header-menu-item"><NavLink to="/newpost" className="header-menu-link">Общение</NavLink></li>
                         <li className="header-menu-item"><NavLink to="/" className="header-menu-link">Политика</NavLink></li>
                         <li className="header-menu-item"><NavLink to="/" className="header-menu-link">Природа</NavLink></li>
                     </ul>
