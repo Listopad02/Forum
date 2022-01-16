@@ -2,7 +2,7 @@ import "./NewPost.css"
 
 function NewPost() {
     return (
-        <form action="#" className="add-post">
+        <form action="#" className="add-post visible">
             <input type="text" name="title" className="add-title" placeholder="Заголовок поста" />
             <textarea name="text" className="add-text" placeholder="Текст вашего поста"></textarea>
             <input type="text" name="tags" className="add-tags" placeholder="Добавьте теги через запятую" />

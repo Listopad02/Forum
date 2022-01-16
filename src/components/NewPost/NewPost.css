@@ -5,6 +5,7 @@
 }
 .add-post.visible {
     display: flex;
+    width: 100%;
 }
 .add-title,
 .add-text,
@@ -24,5 +25,17 @@
   margin-right: 2%;
 }
 .add-post .button-outline {
-    margin-right: 1%;
+  margin-right: 1%;
+}
+.button {
+  background: #2080ee;
+  border-radius: 4px;
+  border: none;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 13px;
+  cursor: pointer;
 }

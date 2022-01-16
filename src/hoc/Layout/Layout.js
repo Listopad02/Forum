@@ -1,7 +1,6 @@
 import './Layout.css'
 import Header from "../../components/Header/Header"
 import Auth from '../../components/Auth/Auth'
-import NewPost from '../../components/NewPost/NewPost'
 
 const Layout = props => {
     return (
@@ -14,7 +13,6 @@ const Layout = props => {
                     { props.children }
                 </main>
                 <Auth />
-                <NewPost />
             </div>
         </div>
     )
